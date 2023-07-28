@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;1,200&family=Kanit:wght@100&family=Lora:ital,wght@1,500&family=Roboto+Condensed&display=swap'); */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Ysabeau+Infant:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Lunasima:wght@700&display=swap'); 
+nav{
+  font-family: 'Roboto Condensed', sans-serif;
+  background: white;
+
+}
+
+/* *{
+  background-color: #040526;
+} */
+
+ nav ul li :hover {
+
+ border-bottom: 4px solid #00bcc8;
+}
+
+
+.font{
+  font-size: 20px;
+  
+}
+
+.banner{
+  width: 100%;
+  /* height: 700px; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://img.freepik.com/free-photo/unrecognizable-asian-woman-sitting-cafe-working-laptop_1098-17167.jpg?size=626&ext=jpg&ga=GA1.2.1378312870.1687680026&semt=ais);
+}
+
+
+.bannerpara{
+  line-height: 43px;
+  font-size: 20px ;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  text-align: center;
+ 
+    margin: 0 139px;
+}
+@media(max-width: 768px) {
+ .bannerpara{
+  margin: 0 10px;
+  word-spacing: 0px;
+  letter-spacing: 0px;
+ }
+
+}
+
+.bannerbtn{
+  height: 47px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: #00bcc8;
+  color: white;
+}
+.bannerbtn:hover{
+  border: 2px solid #00bcc8;
+  color: #00bcc8;
+}
+
+.bannerbtn i:hover{
+  color: #00bcc8;
+}
+
+/* About section */
+.about{
+  height: 100%;
+  height: 100vh;
+}
+.about h2{
+  color: #00bcc8;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+.about p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: justify;
+}
+.aboutbg{
+  
+  background: linear-gradient( 692deg, #00bcc8 0%, #00bcc8 20%, white 25%, white 40%, #00bcc8 80%, #00BCCE -2%, white 45%, white 43%, #00bcc8 50%,  white 60%, white 80%, #00bcc8 80%, #00bcc8 100%  );
+ 
+}
+ /* my skills */
+ .skills h2{
+  color:white;
+  font-size: 40px;
+ }
+
+ /* .thick-underline {
+  position: relative;
+
+} */
+
+/* .thick-underline::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  width: 50px;
+  height: 4px;
+  background-color:white;
+  transform: translateX(-50%);
+} */
+
+
+.imageicon img{
+  width: 70px;
+  height: 70px;
+}
+.imageicon i{
+  font-size: 80px;
+  
+}
+/* .blueback{
+  background-color: #00bcd4;
+} */
+/* experience css */
+.expborder{
+  border: 3px solid #00bcd4;
+}
+.exp h2{
+  color: #00bcd4;
+  font-family: 'Poppins', sans-serif;
+}
+.exp h1{
+  color: #00bcd4;
+}
+.exp h3{
+  color: #939393;
+}
+.internship i{
+color: #00bcd4;
+font-size: 10px;
+}
+.thick-underlineblue{
+  position: relative;
+}
+.thick-underlineblue::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  width: 50px;
+  height: 4px;
+  background-color:#00bcd4;
+  transform: translateX(-50%);
+}
+/* .footer i{
+  background-color: white;
+  color: white;
+  border-radius: 80px;
+  font-size: 40px;
+} */
+
+/* Contact css */
+.contactback{
+  background: linear-gradient(0deg, rgb(30, 35, 48), rgb(127, 139, 153));
+ 
+  height: 100vh;
+}
+.contactimg img{
+  height: 150px;
+  width: 150px; 
+}
+.contactopt{
+  border: 2px solid white;
+  border-radius: 20px;
+  color: white;
+  
+}
+.contactopt:hover{
+  background-color: white;
+  color: #939393
+}
+.contactopt h2{
+  font-family: 'Lora', serif;
+}
+/* Project card */
+
+.shadow{
+  box-shadow: grey;
+}
+.projbody p{
+  font-family: 'Lora', serif;
+  text-align: justify;
+  color: #939393;
+  font-size: 18px;
+}
+.projcardbtn .btn-info{
+background-color: #00bcd4;
+border-radius: 20px;
+color: white;
+}
+.projcardbtn .btn-info:hover{
+ border: 2px solid #00bcd4;
+  border-radius: 20px;
+  color:#00bcd4;
+  background-color: white;
+   
+  }
+
+.btngrey{
+  background-color: #939393;
+  border-radius: 20px;
+color: white;
+}
+.btngrey:hover{
+border: 2px solid #939393;
+  border-radius: 20px;
+color: #939393;
+}
