@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b10bd3cb.css",
+    "main.js": "/static/js/main.4223b9bc.js",
+    "static/js/787.79a5aeea.chunk.js": "/static/js/787.79a5aeea.chunk.js",
+    "static/media/bakeup.png": "/static/media/bakeup.cd0e4a50885f9a0552e3.png",
+    "static/media/netschoolimg.png": "/static/media/netschoolimg.f32f86175c3d7fd22875.png",
+    "static/media/portfolioimg.png": "/static/media/portfolioimg.f3135667ebf28aae5d45.png",
+    "static/media/sakshiaboutpic.png": "/static/media/sakshiaboutpic.434553930c92fad32b1f.png",
+    "static/media/todoimg.png": "/static/media/todoimg.5d1178f7166442efc60b.png",
+    "static/media/admissionimg.png": "/static/media/admissionimg.23dff24d5b9ca0e6634b.png",
+    "static/media/SakshiResume2.pdf": "/static/media/SakshiResume2.8218e40dc772ae0eb6cc.pdf",
+    "index.html": "/index.html",
+    "main.b10bd3cb.css.map": "/static/css/main.b10bd3cb.css.map",
+    "main.4223b9bc.js.map": "/static/js/main.4223b9bc.js.map",
+    "787.79a5aeea.chunk.js.map": "/static/js/787.79a5aeea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b10bd3cb.css",
+    "static/js/main.4223b9bc.js"
+  ]
+}
