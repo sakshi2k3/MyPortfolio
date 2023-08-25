@@ -24,7 +24,7 @@ function Home() {
           HI! <span style={{ color: "#00bcc8" }}>I'M SAKSHI</span>
         </h1>
         <h1 className=" text-center display-3" style={{ color: "#6be1c8" }}>
-          CREATIVE AND PASSIONAT
+          CREATIVE AND PASSIONATE
         </h1>
         <h1 className="text-white text-center display-3" style={{}}>
           WEB <span style={{ color: "#00bcc8" }}>DEVELOPER</span>
